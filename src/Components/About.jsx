@@ -4,6 +4,8 @@ import js from '../assets/js.png'
 import html from '../assets/html-5.png'
 import css from '../assets/css.png'
 import tailwind from '../assets/tailwind css icon.png'
+import resume from '../assets/Resume 1 suraj.pdf'
+
 
 
 const About = () =>{
@@ -19,8 +21,10 @@ const About = () =>{
                </p>
                <p className="text-start text-2xl p-3 ">As a fresher, I am enthusiastic about the opportunity to apply my knowledge in real-world scenarios and 
                 contribute to creating exceptional user experiences.</p>
-                <button className="bg-black text-white w-[120px] h-12 rounded-2xl
+                <a href={resume}>
+                <button className="bg-black text-white px-6 py-3 rounded-2xl
                  hover:bg-[#0f4c5c] hover:text-white transition duration-300">Download Resume</button>
+                </a>
             </div>
             <div className='mt-24'>
                 <h2 className="text-3xl font-semibold mb-16">Skillset</h2>
